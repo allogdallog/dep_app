@@ -15,4 +15,4 @@ spec:
     spec:
       containers:
       - name: front-con
-        image: allogdallog/front:1
+        image: allogdallog/front:9
