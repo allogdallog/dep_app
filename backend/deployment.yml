@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: back-dep
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: back
+  template:
+    metadata:
+      name: back-pod
+      labels:
+        app: back
+    spec:
+      containers:
+      - name: back-con
+        image: allogdallog/back:1
