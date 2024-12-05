@@ -29,4 +29,4 @@ spec:
     spec:
       containers:
       - name: back-con
-        image: allogdallog/back:10
+        image: allogdallog/back:11
